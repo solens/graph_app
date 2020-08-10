@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">graph_app</string>
+    <string name="add_datedPoint">Add your weight</string>
+    <string name="unit">lb</string>
+
+    <string name="hint_word">Weight in lb</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Not saved: No weight entered</string>
+</resources>

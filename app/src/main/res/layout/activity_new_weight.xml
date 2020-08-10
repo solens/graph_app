@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_date"
+            android:inputType="date"
+            android:minHeight="@dimen/min_height"
+            android:fontFamily="sans-serif-light"
+            android:layout_margin="@dimen/big_padding"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT DATE"
+            android:id="@+id/btn_date"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_time"
+            android:inputType="date"
+            android:minHeight="@dimen/min_height"
+            android:fontFamily="sans-serif-light"
+            android:layout_margin="@dimen/big_padding"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT TIME"
+            android:id="@+id/btn_time" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_height"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_word"
+        android:inputType="numberDecimal"
+        android:layout_margin="@dimen/big_padding"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_save"
+        android:layout_margin="@dimen/big_padding"
+        android:textColor="@color/buttonLabel" />
+
+</LinearLayout>
